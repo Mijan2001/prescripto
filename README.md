@@ -37,6 +37,12 @@ Welcome to the **Hospital Management System**, a complete full-stack web applica
 
 ---
 
+Screenshoots
+![photo1](./hostipat1.png)
+![photo2](./hostipat2.png)
+![photo3](./hostipat3.png)
+![photo4](./hostipat4.png)
+
 ## 🔧 Installation Guide
 
 ### 1. Clone the repository
