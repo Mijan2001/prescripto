@@ -45,3 +45,68 @@ First, clone the repository to your local machine.
 ```bash
 git clone https://github.com/yourusername/hospital-management-system.git
 cd hospital-management-system
+
+### 2. Set up the Backend
+
+- Navigate to the **backend** directory:
+    
+    ```bash
+    bash
+    CopyEdit
+    cd backend
+    
+    ```
+    
+- Install the necessary dependencies:
+    
+    ```bash
+    bash
+    CopyEdit
+    npm install
+    
+    ```
+    
+- Set up environment variables:
+    
+    Create a `.env` file in the **backend** directory and add the following variables:
+    
+    ```bash
+    bash
+    CopyEdit
+    MONGO_URI=your_mongodb_connection_string
+    JWT_SECRET=your_jwt_secret_key
+    PORT=5000
+    
+    ```
+    
+- Start the server:
+    
+    ```bash
+    bash
+    CopyEdit
+    npm start
+    
+    ```
+    
+
+### 3. Set up the Frontend
+
+- Navigate to the **frontend** directory:
+    
+    ```bash
+    bash
+    CopyEdit
+    cd ../frontend
+    
+    ```
+    
+- Install the necessary dependencies:
+    
+    ```bash
+    bash
+    CopyEdit
+    npm install
+    
+    ```
+    
+- Start the React app:
